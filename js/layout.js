@@ -6,7 +6,7 @@ $(function(){
 	  var url = location.href;
 	  if (url.indexOf('introduction') >= 0) {
 		  $("#menu-1").addClass("menu-on");
-	  } else if (url.indexOf('document.html') >= 0) {
+	  } else if (url.indexOf('document_list') >= 0) {
 		  $("#menu-2").addClass("menu-on");
 	  } else {
 		  $("#menu-1").removeClass("menu-on");
