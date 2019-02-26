@@ -13,6 +13,7 @@ $(function(){
 		  $("#menu-2").removeClass("menu-on");
 	  }
   });
+  $("#sp-header").load("component/sp_header.html .header");
   $("#footer").load("component/footer.html .footer");
   $("#introduction").load("component/introduction.html .introduction");
   $("#download").load("component/document.html .download");
