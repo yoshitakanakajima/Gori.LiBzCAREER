@@ -35,3 +35,8 @@ $(document).on('click touchstart','#menu-intro', function() {
 $(document).on('click touchstart','#menu-doc', function() {
 	window.location.href = 'document_list.html';
 });
+
+$(document).on('click touchstart','#article-list', function() {
+	window.location.href = 'article_list.html';
+});
+
