@@ -15,7 +15,9 @@ $(function(){
   });
   $("#sp-header").load("component/sp_header.html .header");
   $("#footer").load("component/footer.html .footer");
+  $("#sp-footer").load("component/sp_footer.html .footer");
   $("#introduction").load("component/introduction.html .introduction");
+  $("#sp-introduction").load("component/sp_introduction.html .introduction");
   $("#download").load("component/document.html .download");
   $("#consultation").load("component/consultation.html .consultation");
   $("#related-article").load("component/related_article.html .related-article");
